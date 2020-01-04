@@ -122,7 +122,8 @@ public class TheDungeon
                 }
                 catch (NumberFormatException exception)
                 {
-                    choice = UNDEFINED;
+                    System.out.println("Invalid command, please try again.");
+                    continue;
                 } // end of catch (NumberFormatException exception)
 
                 switch (choice)

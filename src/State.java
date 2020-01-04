@@ -1,5 +1,7 @@
-import java.util.Scanner;
+package src;
+import src.player.Player;
 
+import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.File;
